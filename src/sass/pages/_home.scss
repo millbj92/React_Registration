@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 40rem;
+}
+
+.form-row {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.home {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary, 0.8),
+    rgba($color-primary-light, 0.8)
+  );
+}
